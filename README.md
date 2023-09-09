@@ -55,5 +55,10 @@ Agora acesse o arquivo localizado em **Backend/src/bd/dataBaseConfig.ts** com um
 ## Inicialização
 Com o server do MySQL já iniciado faça os seguintes passos.
 
-1. Abra um bloco de comando na pasta /backend e digite npm start.
-2. Faça o mesmo na pasta /frontend.
+1. Abra um bloco de comando na pasta /backend e digite o seguinte código:
+
+    npm start
+
+2. Abra outro bloco de comando na pasta /backend e digite o mesmo código.
+
+3. Pronto, o navegador vai abrir uma nova aba no link http://localhost:3000/ 
