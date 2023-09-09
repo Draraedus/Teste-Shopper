@@ -1,0 +1,51 @@
+.AppPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  height: 100vh;
+}
+
+.FileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 12px;
+
+  margin: 16px 0;
+}
+
+.FileContainer > h1{
+  margin: 15px 0;
+
+  font-size: 2.7em;
+  color: #0dab77;
+}
+
+.ButtonStyle {
+  padding: 4px 12px;
+}
+
+.TableContainer {
+  margin: 12px 0;
+
+  border-collapse: collapse;
+  width: 80vw;
+}
+
+.TableContainer > thead > tr > th{
+  text-align: center;
+  background-color: #0dab77;
+  color: white;
+}
+
+.TableContainer > tbody > tr > td{
+  text-align: center;
+}
+
+.InfoContainer {
+  margin-top: auto;
+}
